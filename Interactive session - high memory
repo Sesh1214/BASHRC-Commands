@@ -1,2 +1,2 @@
-alias 20ginteractive="srun -n1 -p compute -J interactive --time=24:00:00 --mem=20G --pty bash" # added this line 15th june 2020
+alias 20ginteractive="srun -n1 -p compute-64-512 -J interactive --time=24:00:00 --mem=20G --pty bash" # added this line 15th june 2020
 alias 60ginteractive="srun -n1 -p compute-64-512 -J interactive --time=24:00:00 --mem=60G --pty bash" # added this line 5th Jan 2021
